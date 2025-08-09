@@ -1,0 +1,86 @@
+nav li a{
+    text-shadow: 5px 5px 5px;
+}
+nav li :hover{
+    background-color: coral;
+    
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+nav li{
+    margin: 10px;
+    
+}
+article h2{
+    color: rgb(3, 55, 55);
+    text-shadow: 7px 7px 7px rgb(5, 61, 61);
+}
+*{
+    background-color: azure;
+}
+header{
+    font-style: italic;
+    text-shadow: 15px 15px 15px ;
+}
+td{
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+}
+.box{
+    border: 1px solid blueviolet;
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    
+    
+
+    
+}
+.box-container{
+    display: flex;
+    gap: 50px;
+
+}
+.u-container{
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.user{
+    font-size: 2em;
+    height: 100px;
+    width: 100px;
+    border: 1px solid rebeccapurple ;
+    background-color: cadetblue;
+    text-decoration: underline;
+    padding: 10px;
+}
+.ajaira{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: justify;
+}
+.user1{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid rgb(109, 8, 37);
+    background-color: lightblue;}
+    
+
+
+

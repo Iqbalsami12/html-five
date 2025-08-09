@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+}
+header nav li {
+    margin: 15px;
+    color: black;
+}
+
+main{
+    display: flex;
+    background-color: burlywood;
+    padding: 10px;
+    
+    border-radius: 5px;
+    justify-content: center;
+    height: 300px;
+    margin-right: 20px;
+}
+.list{
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: aqua;
+}
+button{
+    background-color: rgb(102, 131, 20);
+    
+}
+
+.gun-container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(125, 77, 43);
+    
+}
+.gun{
+    width: 200px;
+    box-shadow: 10px 10px 10px rgb(158, 121, 193);
+    border: 4px solid blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.gun img{
+    width: 100%;
+}
+.gun button{
+    cursor: pointer;
+}
+header h1{
+    font-size: 4em;
+}
+section h2{
+    font-size: 3em;
+}
